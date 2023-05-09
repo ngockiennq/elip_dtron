@@ -1,0 +1,14 @@
+\begin{ex}
+\begin{tikzpicture}[scale=0.6]
+\draw (0,0) ellipse ({5} and {3});
+\draw (0,0) circle (3);
+\draw [->] (-5,-3.2)--(5,-3.2);
+\draw [->] (5,-3.2)--(-5,-3.2);
+\draw (0,-3.2) node [below]{10 m};
+\draw [->](5.2,-3)--(5.2,3);
+\draw [->](5.2,3)--(5.2,-3);
+\draw (5,0) node [right]{6 m};
+
+\end{tikzpicture}
+
+\end{ex}
